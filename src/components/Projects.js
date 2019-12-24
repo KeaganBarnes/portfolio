@@ -6,6 +6,8 @@ const Projects = () => (
     <center>
       <h1>Projects</h1>
     </center>
+    <br />
+    <center>
     <div className="ui card">
       <Card>
         <Card.Content>
@@ -23,6 +25,7 @@ const Projects = () => (
         </Card.Content>
       </Card>
     </div>
+    </center>
     <br />
     <center>
       <div>

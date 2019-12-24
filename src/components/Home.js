@@ -6,8 +6,8 @@ const Home = () => (
   <>
     <center>
       <h1>Home</h1>
-      <br />
     </center>
+    <br />
     <center>
       <div>
         <Card
