@@ -4,7 +4,7 @@ import { Menu, } from "semantic-ui-react";
 
 
 const Navbar = () => (
-  <Menu className="menu">
+  <Menu className="menu inverted">
     <NavLink to="/">
       <Menu.Item>
         Home
@@ -26,7 +26,7 @@ const Navbar = () => (
     </Menu.Item>
     </NavLink>
   </Menu>
-  
+
 )
 
 export default Navbar;
