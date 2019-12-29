@@ -6,6 +6,8 @@ import Home from "./components/Home"
 import About from './components/About'
 import Resume from './components/Resume'
 import Projects from './components/Projects'
+import ContactMe from './components/ContactMe'
+import NoMatch from './components/NoMatch'
 
 const App = () => (
   <Fragment>
@@ -16,6 +18,8 @@ const App = () => (
         <Route exact path="/about" component={About} />
         <Route exact path="/resume" component={Resume} />
         <Route exact path="/projects" component={Projects} />
+        <Route exact path="/contact" component={ContactMe} />
+        <Route component={NoMatch} />
       </Switch>
     </Container>
   </Fragment>

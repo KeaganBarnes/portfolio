@@ -25,6 +25,11 @@ const Navbar = () => (
         Projects
     </Menu.Item>
     </NavLink>
+    <NavLink to="/contact">
+      <Menu.Item>
+        Contact
+    </Menu.Item>
+    </NavLink>
   </Menu>
 
 )

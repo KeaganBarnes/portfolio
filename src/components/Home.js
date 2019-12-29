@@ -1,6 +1,6 @@
 import React from 'react'
 import ProfilePic from './IMG_2110.png'
-import { Card, Button } from 'semantic-ui-react'
+import { Card, Button, Icon } from 'semantic-ui-react'
 
 const Home = () => (
   <>
