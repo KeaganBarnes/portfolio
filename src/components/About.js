@@ -14,6 +14,27 @@ import Dog from '../Pics/Dog.png'
 import Health from '../Pics/Health.png'
 import Helping from '../Pics/Helping.png'
 import Happy from '../Pics/Happy.png'
+import a from '../Pics/a.png'
+import b from '../Pics/b.png'
+import c from '../Pics/c.png'
+import d from '../Pics/d.png'
+import e from '../Pics/e.png'
+import f from '../Pics/f.png'
+import g from '../Pics/g.png'
+import h from '../Pics/h.png'
+import i from '../Pics/i.png'
+import j from '../Pics/j.png'
+import k from '../Pics/k.png'
+import l from '../Pics/l.png'
+import m from '../Pics/m.png'
+import n from '../Pics/n.png'
+import o from '../Pics/o.png'
+import p from '../Pics/p.png'
+import q from '../Pics/q.png'
+import r from '../Pics/r.png'
+import s from '../Pics/s.png'
+import t from '../Pics/t.png'
+
 
 const About = () => (
   <>
@@ -43,7 +64,6 @@ const About = () => (
       <br />
       <Grid columns={3}>
         <Grid.Column>
-          <br />
           <center>
             <p>
               <img style={lift} src={Lift} />
@@ -58,7 +78,6 @@ const About = () => (
           </center>
         </Grid.Column>
         <Grid.Column>
-          <br />
           <center>
             <p>
               <img style={lift} src={Zion} />
@@ -71,7 +90,6 @@ const About = () => (
           </center>
         </Grid.Column>
         <Grid.Column>
-          <br />
           <center>
             <p>
               <img style={lift} src={Guitar} />
@@ -95,7 +113,6 @@ const About = () => (
       <br />
       <Grid columns={3}>
         <Grid.Column>
-          <br />
           <center>
             <p>
               <img style={dean} src={DEAN} />
@@ -106,7 +123,6 @@ const About = () => (
           </center>
         </Grid.Column>
         <Grid.Column>
-          <br />
           <center>
             <p>
               <img style={lift} src={MVP} />
@@ -117,7 +133,6 @@ const About = () => (
           </center>
         </Grid.Column>
         <Grid.Column>
-          <br />
           <center>
             <p>
               <img style={pStyle} src={UWG} />
@@ -127,11 +142,9 @@ const About = () => (
             </p>
           </center>
         </Grid.Column>
-
       </Grid>
       <Grid columns={2} >
         <Grid.Column>
-          <br />
           <center>
             <p>
               <img style={lift} src={STATE} />
@@ -146,7 +159,6 @@ const About = () => (
           </center>
         </Grid.Column>
         <Grid.Column>
-          <br />
           <center>
             <p>
               <img style={pStyle} src={CFG} />
@@ -162,7 +174,6 @@ const About = () => (
             </p>
           </center>
         </Grid.Column>
-
       </Grid>
     </div>
     <br />
@@ -173,70 +184,62 @@ const About = () => (
       <br />
       <Grid columns={3}>
         <Grid.Column>
-          <br />
           <center>
             <p>
               <img style={dean} src={Family} />
             </p>
             <p>
-              ex...
+              My family is important to me because no matter what happens I know I can always count on them. They have always supported and loved me no matter what I do and for who I am.
             </p>
           </center>
         </Grid.Column>
         <Grid.Column>
-          <br />
           <center>
             <p>
               <img style={smile} src={GF} />
             </p>
             <p>
-              ex...
+              I am forever grateful for my girlfriend. We have done long distance for the last few years and she still chooses me everyday.
             </p>
           </center>
         </Grid.Column>
         <Grid.Column>
-          <br />
           <center>
             <p>
               <img style={pStyle} src={Dog} />
             </p>
             <p>
-              ex...
+              My dog's name is Jeter but everyone calls him "Jeeber". He's a very social and loving dog and is very aware of emotion. He always knows exactly how to comfort people with they are feeling anxious or sad.
             </p>
           </center>
         </Grid.Column>
-      </Grid>
-      <Grid columns={3}>
         <Grid.Column>
-          <br />
           <center>
             <p>
               <img style={health} src={Health} />
             </p>
             <p>
-              ex...
+              Health is important to me because it allows me to do fun things and enjoy life the way it should be lived.
             </p>
           </center>
         </Grid.Column>
         <Grid.Column>
-          <br />
           <center>
             <p>
               <img style={adrian} src={Helping} />
             </p>
             <p>
-              ex...
+              Helping others is important to me and I feel it should be a part of everybody's life as it helps bring people together and positive relationships feed and heal the soul.
             </p>
           </center>
         </Grid.Column>
         <Grid.Column>
-          <br />
           <center>
             <p>
               <img style={smile} src={Happy} />
             </p>
             <p>
-              ex...
+              Happiness is important and all things listed before lead a path to happiness. If the life you live doesn't make you happy then something needs to change. We aren't meant to be miserable.
             </p>
           </center>
         </Grid.Column>
@@ -248,26 +251,67 @@ const About = () => (
       <center> <h2 >More Photos </h2> </center>
       <hr />
       <br />
-      <br />
       <center>
         <Grid relaxed columns={5}>
           <Grid.Column>
-            <img style={pStyle} src='https://images.unsplash.com/photo-1534067783941-51c9c23ecefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80' />
+            <img style={pStyle} src={a} />
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src='https://images.unsplash.com/photo-1534067783941-51c9c23ecefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80' />
+            <img style={pStyle} src={b} />
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src='https://images.unsplash.com/photo-1534067783941-51c9c23ecefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80' />
+            <img style={pStyle} src={c} />
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src='https://images.unsplash.com/photo-1534067783941-51c9c23ecefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80' />
+            <img style={pStyle} src={d} />
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src='https://images.unsplash.com/photo-1534067783941-51c9c23ecefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80' />
+            <img style={pStyle} src={e} />
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src='https://www.syfy.com/sites/syfy/files/styles/1200x680/public/2017/08/screen_shot_2017-08-04_at_12.22.34_pm.png' />
+            <img style={pStyle} src={f} />
+          </Grid.Column>
+          <Grid.Column>
+            <img style={pStyle} src={g} />
+          </Grid.Column>
+          <Grid.Column>
+            <img style={pStyle} src={h} />
+          </Grid.Column>
+          <Grid.Column>
+            <img style={pStyle} src={i} />
+          </Grid.Column>
+          <Grid.Column>
+            <img style={pStyle} src={j} />
+          </Grid.Column>
+          <Grid.Column>
+            <img style={pStyle} src={k} />
+          </Grid.Column>
+          <Grid.Column>
+            <img style={pStyle} src={l} />
+          </Grid.Column>
+          <Grid.Column>
+            <img style={pStyle} src={m} />
+          </Grid.Column>
+          <Grid.Column>
+            <img style={pStyle} src={n} />
+          </Grid.Column>
+          <Grid.Column>
+            <img style={pStyle} src={o} />
+          </Grid.Column>
+          <Grid.Column>
+            <img style={pStyle} src={p} />
+          </Grid.Column>
+          <Grid.Column>
+            <img style={pStyle} src={q} />
+          </Grid.Column>
+          <Grid.Column>
+            <img style={pStyle} src={r} />
+          </Grid.Column>
+          <Grid.Column>
+            <img style={pStyle} src={s} />
+          </Grid.Column>
+          <Grid.Column>
+            <img style={pStyle} src={t} />
           </Grid.Column>
         </Grid>
       </center>
