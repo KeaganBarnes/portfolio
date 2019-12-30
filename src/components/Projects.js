@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Image, Button } from 'semantic-ui-react'
+import { Card, Image, Button, } from 'semantic-ui-react'
 
 const Projects = () => (
   <>
@@ -7,11 +7,11 @@ const Projects = () => (
       <h1>Projects</h1>
     </center>
     <br />
-    <center>
-    <div className="ui card">
+    <Card.Group centered itemsPerRow={3}>
       <Card>
         <Card.Content>
           <Image
+            style={logo}
             target="_blank"
             href="https://github.com/AleemP3/hackathon1"
             src="https://cdn.freebiesupply.com/logos/thumbs/2x/rails-1-logo.png" />
@@ -20,12 +20,54 @@ const Projects = () => (
               target="_blank"
               href="https://github.com/AleemP3/hackathon1">
               hackathon1
+                </a>
+          </Card.Header>
+        </Card.Content>
+      </Card>
+
+      <Card>
+        <Card.Content>
+          <Image
+            style={logo}
+            target="_blank"
+            href="https://github.com/KeaganBarnes/portfolio"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS0MfnuLmnxxNOmitx5jrlmZfhsO-o_42WPTXQk9frY9JKvQx0J"
+          />
+          <Card.Header>
+            <a
+              target="_blank"
+              href="https://github.com/KeaganBarnes/portfolio">
+              Portfolio
             </a>
           </Card.Header>
         </Card.Content>
       </Card>
-    </div>
-    </center>
+    </Card.Group>
+    <br />
+    <h3> Other Note Worthy Projects </h3>
+    <ul>
+      <li>
+        <a
+          target="_blank"
+          href="https://github.com/KeaganBarnes/MySpace_app">
+          Robo MySpace (Rails React)
+        </a>
+      </li>
+      <li>
+        <a
+          target="_blank"
+          href="https://github.com/KeaganBarnes/React_Flashcards">
+          Flashcards (JS React)
+        </a>
+      </li>
+      <li>
+        <a
+          target="_blank"
+          href="https://github.com/KeaganBarnes/JS_RPS">
+          Rock, Paper, Scissors (JS)
+        </a>
+      </li>
+    </ul>
     <br />
     <center>
       <div>
@@ -38,5 +80,11 @@ const Projects = () => (
     </center>
   </>
 );
+
+const logo = {
+  height: '200px',
+  width: '300px',
+  position: 'center'
+};
 
 export default Projects;

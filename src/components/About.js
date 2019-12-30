@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Menu, Grid, GridColumn, } from 'semantic-ui-react'
+import { Button, Menu, Grid, } from 'semantic-ui-react'
 
 const About = () => (
   <>
@@ -28,7 +28,7 @@ const About = () => (
         <Grid.Column>
           <center>
             <p>
-              Photo
+              <img style={pStyle} src='https://images.unsplash.com/photo-1534067783941-51c9c23ecefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80' />
             </p>
           </center>
         </Grid.Column>
@@ -55,7 +55,7 @@ const About = () => (
         <Grid.Column>
           <center>
             <p>
-              Photo
+              <img style={pStyle} src='https://images.unsplash.com/photo-1534067783941-51c9c23ecefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80' />
             </p>
           </center>
         </Grid.Column>
@@ -68,7 +68,7 @@ const About = () => (
         <Grid.Column>
           <center>
             <p>
-              Photo
+              <img style={pStyle} src='https://images.unsplash.com/photo-1534067783941-51c9c23ecefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80' />
             </p>
           </center>
         </Grid.Column>
@@ -87,12 +87,26 @@ const About = () => (
       <br />
       <br />
       <center>
-        <Grid columns={5} />
-        <Grid.Column>
-          <p>
-            Photots will go here(will be placed in a grid)
-          </p>
-        </Grid.Column>
+        <Grid relaxed columns={5}>
+          <Grid.Column>
+            <img style={pStyle} src='https://images.unsplash.com/photo-1534067783941-51c9c23ecefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80' />
+          </Grid.Column>
+          <Grid.Column>
+            <img style={pStyle} src='https://images.unsplash.com/photo-1534067783941-51c9c23ecefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80' />
+          </Grid.Column>
+          <Grid.Column>
+            <img style={pStyle} src='https://images.unsplash.com/photo-1534067783941-51c9c23ecefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80' />
+          </Grid.Column>
+          <Grid.Column>
+            <img style={pStyle} src='https://images.unsplash.com/photo-1534067783941-51c9c23ecefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80' />
+          </Grid.Column>
+          <Grid.Column>
+            <img style={pStyle} src='https://images.unsplash.com/photo-1534067783941-51c9c23ecefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80' />
+          </Grid.Column>
+          <Grid.Column>
+            <img style={pStyle} src='https://www.syfy.com/sites/syfy/files/styles/1200x680/public/2017/08/screen_shot_2017-08-04_at_12.22.34_pm.png' />
+          </Grid.Column>
+        </Grid>
       </center>
     </div>
     <center>
@@ -106,7 +120,16 @@ const About = () => (
         <Button circular color='black' icon='github' size='large' href="https://github.com/KeaganBarnes" target="_blank" />
       </div>
     </center>
+    <br />
+    <br />
+    <br />
   </>
 );
+
+const pStyle = {
+  height: '200px',
+  width: '200px',
+  borderRadius: '25px'
+};
 
 export default About;
