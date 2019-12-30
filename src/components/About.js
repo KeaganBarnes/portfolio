@@ -66,7 +66,7 @@ const About = () => (
         <Grid.Column>
           <center>
             <p>
-              <img style={lift} src={Lift} />
+              <img style={lift} src={Lift} alt=''/>
             </p>
             <p>
               I have been <strong> weightlifting </strong> since I was 14.
@@ -80,7 +80,7 @@ const About = () => (
         <Grid.Column>
           <center>
             <p>
-              <img style={lift} src={Zion} />
+              <img style={lift} src={Zion} alt=''/>
             </p>
             <p>
               Some of my favorite hobbies are <strong> snowboarding </strong> & <strong> hiking </strong>.
@@ -92,7 +92,7 @@ const About = () => (
         <Grid.Column>
           <center>
             <p>
-              <img style={lift} src={Guitar} />
+              <img style={lift} src={Guitar} alt=''/>
             </p>
             <p>
               I first began to play when I was young but gave it up to focus
@@ -115,7 +115,7 @@ const About = () => (
         <Grid.Column>
           <center>
             <p>
-              <img style={dean} src={DEAN} />
+              <img style={dean} src={DEAN} alt=''/>
             </p>
             <p>
               The Spring 2019 semester I was not only awarded with Kutztown Rugby's <strong> 'Most Valuable Back' </strong>, but more proudly earned a spot on the <strong> Dean's List</strong>. In this semester my hard work earned me a <strong> 4.0 GPA </strong>.
@@ -125,7 +125,7 @@ const About = () => (
         <Grid.Column>
           <center>
             <p>
-              <img style={lift} src={MVP} />
+              <img style={lift} src={MVP} alt=''/>
             </p>
             <p>
               In my first year of college rugby I was awarded <strong> Freshman Of The Year </strong> for having outstanding performances both on and off the field.
@@ -135,7 +135,7 @@ const About = () => (
         <Grid.Column>
           <center>
             <p>
-              <img style={pStyle} src={UWG} />
+              <img style={pStyle} src={UWG} alt=''/>
             </p>
             <p>
               In 2016 I helped lead my Rugby 7s team to a <strong> world championship </strong> at the <strong> United World Games </strong> which were hosted in Klagenfurt, Austria.
@@ -147,7 +147,7 @@ const About = () => (
         <Grid.Column>
           <center>
             <p>
-              <img style={lift} src={STATE} />
+              <img style={lift} src={STATE} alt=''/>
             </p>
             <p>
               My senior year of highschool I won the <strong> state title </strong> at the
@@ -161,7 +161,7 @@ const About = () => (
         <Grid.Column>
           <center>
             <p>
-              <img style={pStyle} src={CFG} />
+              <img style={pStyle} src={CFG} alt=''/>
             </p>
             <p>
               After winning a regional title in 2013, I traveled to Carson, CA.
@@ -186,7 +186,7 @@ const About = () => (
         <Grid.Column>
           <center>
             <p>
-              <img style={dean} src={Family} />
+              <img style={dean} src={Family} alt=''/>
             </p>
             <p>
               My family is important to me because no matter what happens I know I can always count on them. They have always supported and loved me no matter what I do and for who I am.
@@ -196,7 +196,7 @@ const About = () => (
         <Grid.Column>
           <center>
             <p>
-              <img style={smile} src={GF} />
+              <img style={smile} src={GF} alt=''/>
             </p>
             <p>
               I am forever grateful for my girlfriend. We have done long distance for the last few years and she still chooses me everyday.
@@ -206,7 +206,7 @@ const About = () => (
         <Grid.Column>
           <center>
             <p>
-              <img style={pStyle} src={Dog} />
+              <img style={pStyle} src={Dog} alt=''/>
             </p>
             <p>
               My dog's name is Jeter but everyone calls him "Jeeber". He's a very social and loving dog and is very aware of emotion. He always knows exactly how to comfort people with they are feeling anxious or sad.
@@ -216,7 +216,7 @@ const About = () => (
         <Grid.Column>
           <center>
             <p>
-              <img style={health} src={Health} />
+              <img style={health} src={Health} alt=''/>
             </p>
             <p>
               Health is important to me because it allows me to do fun things and enjoy life the way it should be lived.
@@ -226,7 +226,7 @@ const About = () => (
         <Grid.Column>
           <center>
             <p>
-              <img style={adrian} src={Helping} />
+              <img style={adrian} src={Helping} alt=''/>
             </p>
             <p>
               Helping others is important to me and I feel it should be a part of everybody's life as it helps bring people together and positive relationships feed and heal the soul.
@@ -236,7 +236,7 @@ const About = () => (
         <Grid.Column>
           <center>
             <p>
-              <img style={smile} src={Happy} />
+              <img style={smile} src={Happy} alt=''/>
             </p>
             <p>
               Happiness is important and all things listed before lead a path to happiness. If the life you live doesn't make you happy then something needs to change. We aren't meant to be miserable.
@@ -254,64 +254,64 @@ const About = () => (
       <center>
         <Grid relaxed columns={5}>
           <Grid.Column>
-            <img style={pStyle} src={a} />
+            <img style={pStyle} src={a} alt='' />
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={b} />
+            <img style={pStyle} src={b} alt=''/>
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={c} />
+            <img style={pStyle} src={c} alt=''/>
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={d} />
+            <img style={pStyle} src={d} alt=''/>
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={e} />
+            <img style={pStyle} src={e} alt=''/>
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={f} />
+            <img style={pStyle} src={f} alt=''/>
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={g} />
+            <img style={pStyle} src={g} alt=''/>
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={h} />
+            <img style={pStyle} src={h} alt=''/>
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={i} />
+            <img style={pStyle} src={i} alt=''/>
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={j} />
+            <img style={pStyle} src={j} alt=''/>
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={k} />
+            <img style={pStyle} src={k} alt=''/>
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={l} />
+            <img style={pStyle} src={l} alt=''/>
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={m} />
+            <img style={pStyle} src={m} alt=''/>
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={n} />
+            <img style={pStyle} src={n} alt=''/>
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={o} />
+            <img style={pStyle} src={o} alt=''/>
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={p} />
+            <img style={pStyle} src={p} alt=''/>
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={q} />
+            <img style={pStyle} src={q} alt=''/>
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={r} />
+            <img style={pStyle} src={r} alt=''/>
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={s} />
+            <img style={pStyle} src={s} alt=''/>
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={t} />
+            <img style={pStyle} src={t} alt=''/>
           </Grid.Column>
         </Grid>
       </center>

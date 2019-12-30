@@ -17,7 +17,7 @@ const Projects = () => (
             src="https://cdn.freebiesupply.com/logos/thumbs/2x/rails-1-logo.png" />
           <Card.Header>
             <a
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
               href="https://github.com/AleemP3/hackathon1">
               hackathon1
                 </a>
@@ -29,13 +29,13 @@ const Projects = () => (
         <Card.Content>
           <Image
             style={logo}
-            target="_blank"
+            target="_blank" rel="noopener noreferrer"
             href="https://github.com/KeaganBarnes/portfolio"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS0MfnuLmnxxNOmitx5jrlmZfhsO-o_42WPTXQk9frY9JKvQx0J"
           />
           <Card.Header>
             <a
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
               href="https://github.com/KeaganBarnes/portfolio">
               Portfolio
             </a>
@@ -48,21 +48,21 @@ const Projects = () => (
     <ul>
       <li>
         <a
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
           href="https://github.com/KeaganBarnes/MySpace_app">
           Robo MySpace (Rails React)
         </a>
       </li>
       <li>
         <a
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
           href="https://github.com/KeaganBarnes/React_Flashcards">
           Flashcards (JS React)
         </a>
       </li>
       <li>
         <a
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
           href="https://github.com/KeaganBarnes/JS_RPS">
           Rock, Paper, Scissors (JS)
         </a>
