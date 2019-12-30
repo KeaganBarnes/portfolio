@@ -30,7 +30,7 @@ export default class MyForm extends React.Component {
         <br />
         <Form
           onSubmit={this.submitForm}
-          action="https://formspree.io/myyknolk"
+          action="https://formspree.io/barnes.keagan9@gmail.com"
           method="POST"
         >
           <Form.Group widths='equal'>
@@ -51,7 +51,7 @@ export default class MyForm extends React.Component {
             id='form-input-control-error-email'
             control={Input}
             label='Email'
-            placeholder='your@email.com'
+            placeholder='Your Email'
           />
           <Form.Field
             id='form-textarea-control-opinion'
@@ -60,7 +60,7 @@ export default class MyForm extends React.Component {
             placeholder='Please let me know how I can help you...'
           />
           {status === "SUCCESS" ?
-            <p>Thank you for reaching out! I look forward to talking with you!</p>
+            <p>Sent! Thank you for reaching out! I look forward to working with you!</p>
             :
             <Button icon color='black' size='medium'>
               <Icon name='send' />  Send
