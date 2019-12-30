@@ -44,29 +44,29 @@ const About = () => (
     <br />
     <Menu pointing secondary widths={4}>
       <Menu.Item>
-        Hobbies & Interests
-    </Menu.Item>
+        <a href="#hobbies+interests" style={linkColor}> Hobbies & Interests </a>
+      </Menu.Item>
       <Menu.Item>
-        Achievements
-    </Menu.Item>
+        <a href="#achievements" style={linkColor}> Achievements </a>
+      </Menu.Item>
       <Menu.Item>
-        What's Important
-    </Menu.Item>
+        <a href="#whatsimportant" style={linkColor}> What's Important </a>
+      </Menu.Item>
       <Menu.Item>
-        More Photos
-    </Menu.Item>
+        <a href="#morephotos" style={linkColor}> More Photos </a>
+      </Menu.Item>
     </Menu>
     <br />
     <div>
       <hr />
-      <center> <h2> Hobbies & Interests </h2> </center>
+      <center> <h2> <a id="hobbies+interests" style={linkColor}> Hobbies & Interests </a> </h2> </center>
       <hr />
       <br />
       <Grid columns={3}>
         <Grid.Column>
           <center>
             <p>
-              <img style={lift} src={Lift} alt=''/>
+              <img style={lift} src={Lift} alt='' />
             </p>
             <p>
               I have been <strong> weightlifting </strong> since I was 14.
@@ -80,7 +80,7 @@ const About = () => (
         <Grid.Column>
           <center>
             <p>
-              <img style={lift} src={Zion} alt=''/>
+              <img style={lift} src={Zion} alt='' />
             </p>
             <p>
               Some of my favorite hobbies are <strong> snowboarding </strong> & <strong> hiking </strong>.
@@ -92,7 +92,7 @@ const About = () => (
         <Grid.Column>
           <center>
             <p>
-              <img style={lift} src={Guitar} alt=''/>
+              <img style={lift} src={Guitar} alt='' />
             </p>
             <p>
               I first began to play when I was young but gave it up to focus
@@ -108,14 +108,14 @@ const About = () => (
     <br />
     <div>
       <hr />
-      <center> <h2> Achievements </h2> </center>
+      <center> <h2> <a id="achievements" style={linkColor}> Achievements </a> </h2> </center>
       <hr />
       <br />
       <Grid columns={3}>
         <Grid.Column>
           <center>
             <p>
-              <img style={dean} src={DEAN} alt=''/>
+              <img style={dean} src={DEAN} alt='' />
             </p>
             <p>
               The Spring 2019 semester I was not only awarded with Kutztown Rugby's <strong> 'Most Valuable Back' </strong>, but more proudly earned a spot on the <strong> Dean's List</strong>. In this semester my hard work earned me a <strong> 4.0 GPA </strong>.
@@ -125,7 +125,7 @@ const About = () => (
         <Grid.Column>
           <center>
             <p>
-              <img style={lift} src={MVP} alt=''/>
+              <img style={lift} src={MVP} alt='' />
             </p>
             <p>
               In my first year of college rugby I was awarded <strong> Freshman Of The Year </strong> for having outstanding performances both on and off the field.
@@ -135,7 +135,7 @@ const About = () => (
         <Grid.Column>
           <center>
             <p>
-              <img style={pStyle} src={UWG} alt=''/>
+              <img style={pStyle} src={UWG} alt='' />
             </p>
             <p>
               In 2016 I helped lead my Rugby 7s team to a <strong> world championship </strong> at the <strong> United World Games </strong> which were hosted in Klagenfurt, Austria.
@@ -147,7 +147,7 @@ const About = () => (
         <Grid.Column>
           <center>
             <p>
-              <img style={lift} src={STATE} alt=''/>
+              <img style={lift} src={STATE} alt='' />
             </p>
             <p>
               My senior year of highschool I won the <strong> state title </strong> at the
@@ -161,7 +161,7 @@ const About = () => (
         <Grid.Column>
           <center>
             <p>
-              <img style={pStyle} src={CFG} alt=''/>
+              <img style={pStyle} src={CFG} alt='' />
             </p>
             <p>
               After winning a regional title in 2013, I traveled to Carson, CA.
@@ -179,67 +179,67 @@ const About = () => (
     <br />
     <div>
       <hr />
-      <center> <h2> What's Important </h2> </center>
+      <center> <h2> <a id="whatsimportant" style={linkColor}> What's Important </a> </h2> </center>
       <hr />
       <br />
       <Grid columns={3}>
         <Grid.Column>
           <center>
             <p>
-              <img style={dean} src={Family} alt=''/>
+              <img style={dean} src={Family} alt='' />
             </p>
             <p>
-              My family is important to me because no matter what happens I know I can always count on them. They have always supported and loved me no matter what I do and for who I am.
-            </p>
-          </center>
-        </Grid.Column>
-        <Grid.Column>
-          <center>
-            <p>
-              <img style={smile} src={GF} alt=''/>
-            </p>
-            <p>
-              I am forever grateful for my girlfriend. We have done long distance for the last few years and she still chooses me everyday.
+              My <strong> family </strong> is important to me because no matter what happens I know I can always count on them. They have always supported and loved me no matter what I do and for who I am.
             </p>
           </center>
         </Grid.Column>
         <Grid.Column>
           <center>
             <p>
-              <img style={pStyle} src={Dog} alt=''/>
+              <img style={smile} src={GF} alt='' />
             </p>
             <p>
-              My dog's name is Jeter but everyone calls him "Jeeber". He's a very social and loving dog and is very aware of emotion. He always knows exactly how to comfort people with they are feeling anxious or sad.
-            </p>
-          </center>
-        </Grid.Column>
-        <Grid.Column>
-          <center>
-            <p>
-              <img style={health} src={Health} alt=''/>
-            </p>
-            <p>
-              Health is important to me because it allows me to do fun things and enjoy life the way it should be lived.
+              I am forever grateful for my <strong> girlfriend </strong>. We have done long distance for the last few years and she still chooses me everyday.
             </p>
           </center>
         </Grid.Column>
         <Grid.Column>
           <center>
             <p>
-              <img style={adrian} src={Helping} alt=''/>
+              <img style={pStyle} src={Dog} alt='' />
             </p>
             <p>
-              Helping others is important to me and I feel it should be a part of everybody's life as it helps bring people together and positive relationships feed and heal the soul.
+              My <strong> dog </strong> is important to me. His name is Jeter but everyone calls him "Jeeber". He's a very social and loving dog and is very aware of emotion. He always knows exactly how to comfort people with they are feeling anxious or sad.
             </p>
           </center>
         </Grid.Column>
         <Grid.Column>
           <center>
             <p>
-              <img style={smile} src={Happy} alt=''/>
+              <img style={health} src={Health} alt='' />
             </p>
             <p>
-              Happiness is important and all things listed before lead a path to happiness. If the life you live doesn't make you happy then something needs to change. We aren't meant to be miserable.
+              <strong> Health </strong> is important to me because it allows me to do fun things and enjoy life the way it should be lived.
+            </p>
+          </center>
+        </Grid.Column>
+        <Grid.Column>
+          <center>
+            <p>
+              <img style={adrian} src={Helping} alt='' />
+            </p>
+            <p>
+              <strong> Helping others </strong> is important to me and I feel it should be a part of everybody's life as it helps bring people together and positive relationships feed and heal the soul.
+            </p>
+          </center>
+        </Grid.Column>
+        <Grid.Column>
+          <center>
+            <p>
+              <img style={smile} src={Happy} alt='' />
+            </p>
+            <p>
+              <strong> Happiness </strong> is important and all things listed before lead a path to happiness. If the life you live doesn't make you happy then something needs to change. We aren't meant to be miserable.
             </p>
           </center>
         </Grid.Column>
@@ -248,7 +248,7 @@ const About = () => (
     <br />
     <div>
       <hr />
-      <center> <h2 >More Photos </h2> </center>
+      <center> <h2><a id="morephotos" style={linkColor}> More Photos </a> </h2> </center>
       <hr />
       <br />
       <center>
@@ -257,61 +257,61 @@ const About = () => (
             <img style={pStyle} src={a} alt='' />
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={b} alt=''/>
+            <img style={pStyle} src={b} alt='' />
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={c} alt=''/>
+            <img style={pStyle} src={c} alt='' />
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={d} alt=''/>
+            <img style={pStyle} src={d} alt='' />
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={e} alt=''/>
+            <img style={pStyle} src={e} alt='' />
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={f} alt=''/>
+            <img style={pStyle} src={f} alt='' />
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={g} alt=''/>
+            <img style={pStyle} src={g} alt='' />
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={h} alt=''/>
+            <img style={pStyle} src={h} alt='' />
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={i} alt=''/>
+            <img style={pStyle} src={i} alt='' />
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={j} alt=''/>
+            <img style={pStyle} src={j} alt='' />
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={k} alt=''/>
+            <img style={pStyle} src={k} alt='' />
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={l} alt=''/>
+            <img style={pStyle} src={l} alt='' />
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={m} alt=''/>
+            <img style={pStyle} src={m} alt='' />
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={n} alt=''/>
+            <img style={pStyle} src={n} alt='' />
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={o} alt=''/>
+            <img style={pStyle} src={o} alt='' />
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={p} alt=''/>
+            <img style={pStyle} src={p} alt='' />
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={q} alt=''/>
+            <img style={pStyle} src={q} alt='' />
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={r} alt=''/>
+            <img style={pStyle} src={r} alt='' />
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={s} alt=''/>
+            <img style={pStyle} src={s} alt='' />
           </Grid.Column>
           <Grid.Column>
-            <img style={pStyle} src={t} alt=''/>
+            <img style={pStyle} src={t} alt='' />
           </Grid.Column>
         </Grid>
       </center>
@@ -334,6 +334,10 @@ const About = () => (
     <br />
   </>
 );
+
+const linkColor = {
+  color: 'black',
+};
 
 const pStyle = {
   height: '200px',
