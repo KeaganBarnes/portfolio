@@ -16,6 +16,7 @@ export default class MyForm extends React.Component {
       <>
         <center>
           <h1> Contact Me </h1>
+          <hr />
           <div>
             <Button circular color='facebook' icon='facebook' size='large' href="https://www.facebook.com/keaganbarnes" target="_blank" />
             <Button circular color='twitter' icon='twitter' size='large' href="https://twitter.com/KeaganBarnes12" target="_blank" />
@@ -23,6 +24,7 @@ export default class MyForm extends React.Component {
             <Button circular color='linkedin' icon='linkedin' size='large' href="https://www.linkedin.com/in/keaganbarnes/" target="_blank" />
             <Button circular color='black' icon='github' size='large' href="https://github.com/KeaganBarnes" target="_blank" />
           </div>
+          <hr />
           <br />
         </center>
         <br />
@@ -68,6 +70,7 @@ export default class MyForm extends React.Component {
         </Form>
         <center>
           <br />
+          <hr />
           <p>
             <Icon name='phone volume' />:
               801.671.5084
@@ -76,6 +79,7 @@ export default class MyForm extends React.Component {
             <Icon name='envelope' />:
               barnes.keagan9@gmail.com
           </p>
+          <hr />
         </center>
       </>
     );

@@ -70,6 +70,7 @@ const Projects = () => (
     </ul>
     <br />
     <center>
+      <hr />
       <div>
         <Button circular color='facebook' icon='facebook' size='large' href="https://www.facebook.com/keaganbarnes" target="_blank" />
         <Button circular color='twitter' icon='twitter' size='large' href="https://twitter.com/KeaganBarnes12" target="_blank" />
@@ -77,6 +78,7 @@ const Projects = () => (
         <Button circular color='linkedin' icon='linkedin' size='large' href="https://www.linkedin.com/in/keaganbarnes/" target="_blank" />
         <Button circular color='black' icon='github' size='large' href="https://github.com/KeaganBarnes" target="_blank" />
       </div>
+      <hr />
     </center>
   </>
 );
