@@ -10,6 +10,7 @@ export default class Navbar extends Component {
   render() {
     const { activeItem } = this.state
 
+
     return (
       <Menu className="menu inverted">
         <NavLink to="/">

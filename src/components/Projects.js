@@ -1,5 +1,8 @@
 import React from 'react'
 import { Card, Image, Button, } from 'semantic-ui-react'
+import RoR from '../Pics/RoR.png'
+import JS from '../Pics/JS.png'
+
 
 const Projects = () => (
   <>
@@ -14,7 +17,7 @@ const Projects = () => (
             style={logo}
             target="_blank"
             href="https://github.com/AleemP3/hackathon1"
-            src="https://cdn.freebiesupply.com/logos/thumbs/2x/rails-1-logo.png" />
+            src={RoR} />
           <Card.Header>
             <a
               target="_blank" rel="noopener noreferrer"
@@ -31,7 +34,7 @@ const Projects = () => (
             style={logo}
             target="_blank" rel="noopener noreferrer"
             href="https://github.com/KeaganBarnes/portfolio"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS0MfnuLmnxxNOmitx5jrlmZfhsO-o_42WPTXQk9frY9JKvQx0J"
+            src={JS}
           />
           <Card.Header>
             <a
