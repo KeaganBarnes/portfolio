@@ -1,6 +1,8 @@
 import React from 'react'
 import { Form, Button, Input, TextArea, Icon } from 'semantic-ui-react'
 
+
+
 export default class MyForm extends React.Component {
   constructor(props) {
     super(props);
@@ -14,7 +16,7 @@ export default class MyForm extends React.Component {
     const { status } = this.state;
     return (
       <>
-        <center>
+        <center >
           <h1> Contact Me </h1>
           <hr />
           <div>
@@ -26,47 +28,36 @@ export default class MyForm extends React.Component {
           </div>
           <hr />
           <br />
-        </center>
+        </center >
         <br />
-        <Form
-          onSubmit={this.submitForm}
-          action="https://formspree.io/barnes.keagan9@gmail.com"
-          method="POST"
-        >
-          <Form.Group widths='equal'>
-            <Form.Field
-              id='form-input-control-first-name'
-              control={Input}
-              label='First Name'
-              placeholder='First'
-            />
-            <Form.Field
-              id='form-input-control-last-name'
-              control={Input}
-              label='Last Name'
-              placeholder='Last'
-            />
-          </Form.Group>
-          <Form.Field
-            id='form-input-control-error-email'
-            control={Input}
-            label='Email'
-            placeholder='Your Email'
-          />
-          <Form.Field
-            id='form-textarea-control-opinion'
-            control={TextArea}
-            label='Message'
-            placeholder='Please let me know how I can help you...'
-          />
-          {status === "SUCCESS" ?
-            <p>Sent! Thank you for reaching out! I look forward to working with you!</p>
-            :
-            <Button icon color='black' size='medium'>
-              <Icon name='send' />  Send
-          </Button>
-          }
-          {status === "ERROR" && <p>There was an error, please try again!</p>}
+
+
+        <Form>
+          <form
+            onSubmit={this.submitForm}
+            action="https://formspree.io/myyknolk"
+            method="POST"
+          >
+            {/* <!-- add your custom form HTML here --> */}
+            <label>Name:</label>
+            <input type="text" name="Name" placeholder="Name" />
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="Your Email" />
+            <label>Subject:</label>
+            <input type="text" name="_subject" placeholder="Subject" />
+            <label>Message:</label>
+            <TextArea type="text" name="message" placeholder="Type your message here..." />
+            <br />
+            <br />
+            {status === "SUCCESS" ? <p>Thanks!</p>
+              :
+              <Button icon color='black' size='medium'>
+                <Icon name='send' />
+                Send
+              </Button>
+            }
+            {status === "ERROR" && <p>Ooops! There was an error.</p>}
+          </form>
         </Form>
         <center>
           <br />
