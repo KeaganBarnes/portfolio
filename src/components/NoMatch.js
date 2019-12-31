@@ -8,9 +8,10 @@ const NoMatch = () => (
 )
 
 const gif = {
-  height: '600px',
-  width: '1200px',
-  borderRadius: '10px'
+  height: '550px',
+  width: '1100px',
+  borderRadius: '10px',
+  position: 'center'
 };
 
 export default NoMatch 
