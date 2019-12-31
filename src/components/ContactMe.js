@@ -56,7 +56,7 @@ export default class MyForm extends React.Component {
                 Send
               </Button>
             }
-            {status === "ERROR" && <p>Ooops! There was an error.</p>}
+            {status === "ERROR" && <p>Ooops! There was an error. Please try again!</p>}
           </form>
         </Form>
         <center>
