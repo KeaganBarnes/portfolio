@@ -12,6 +12,6 @@ const gif = {
   width: '1100px',
   borderRadius: '10px',
   position: 'center'
-};
+}
 
 export default NoMatch 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Form, Button, Input, TextArea, Icon } from 'semantic-ui-react'
+import { Form, Button, TextArea, Icon } from 'semantic-ui-react'
 
 
 

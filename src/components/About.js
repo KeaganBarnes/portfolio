@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Menu, Grid, } from 'semantic-ui-react'
 import Zion from '../Pics/Zion.png'
-import Lift from '../Pics/CrossFit:Weightlifting.png'
+import Lift from '../Pics/CrossFit-Weightlifting.png'
 import Guitar from '../Pics/Guitar.png'
 import MVP from '../Pics/MVP.png'
 import UWG from '../Pics/UWG.png'
@@ -342,37 +342,37 @@ const linkColor = {
 const pStyle = {
   height: '200px',
   width: '200px',
-  borderRadius: '25px'
+  borderRadius: '10px'
 };
 
 const adrian = {
   height: '225px',
   width: '160px',
-  borderRadius: '25px'
+  borderRadius: '10px'
 };
 
 const lift = {
   height: '215px',
   width: '165px',
-  borderRadius: '25px'
+  borderRadius: '10px'
 };
 
 const health = {
   height: '215px',
   width: '180px',
-  borderRadius: '25px'
+  borderRadius: '10px'
 };
 
 const smile = {
   height: '245px',
   width: '180px',
-  borderRadius: '25px'
+  borderRadius: '10px'
 };
 
 const dean = {
   height: '165px',
   width: '255px',
-  borderRadius: '25px'
+  borderRadius: '10px'
 };
 
-export default About;
+export default About
