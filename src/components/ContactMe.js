@@ -29,8 +29,6 @@ export default class MyForm extends React.Component {
           <hr />
           <br />
         </center >
-        <br />
-
 
         <Form>
           <form
@@ -41,10 +39,16 @@ export default class MyForm extends React.Component {
             {/* <!-- add your custom form HTML here --> */}
             <label>Name:</label>
             <input type="text" name="Name" placeholder="Name" />
+            <br />
+            <br />
             <label>Email:</label>
             <input type="email" name="email" placeholder="Your Email" />
+            <br />
+            <br />
             <label>Subject:</label>
             <input type="text" name="_subject" placeholder="Subject" />
+            <br />
+            <br />
             <label>Message:</label>
             <TextArea type="text" name="message" placeholder="Type your message here..." />
             <br />

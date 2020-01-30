@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Image, Button, } from 'semantic-ui-react'
+import { Card, Image, Button, Grid, } from 'semantic-ui-react'
 import RoR from '../Pics/RoR.png'
 import JS from '../Pics/JS.png'
 
@@ -10,67 +10,69 @@ const Projects = () => (
       <h1>Projects</h1>
     </center>
     <br />
-    <Card.Group centered itemsPerRow={3}>
-      <Card>
-        <Card.Content>
-          <Image
-            style={logo}
-            target="_blank"
-            href="https://github.com/AleemP3/hackathon1"
-            src={RoR} />
-          <Card.Header>
-            <a
-              target="_blank" rel="noopener noreferrer"
-              href="https://github.com/AleemP3/hackathon1">
-              hackathon1
+    <Grid align="center">
+      <Grid.Column>
+        <Card.Group centered itemsPerRow={2}>
+          <Card style={card}>
+            <Card.Content>
+              <Image
+                style={logo}
+                target="_blank" rel="noopener noreferrer"
+                href="https://seeker-dpl.herokuapp.com/"
+                src={JS}
+              />
+              <hr />
+              <br />
+              <Card.Header>
+                <a
+                  target="_blank" rel="noopener noreferrer"
+                  href="https://github.com/devpointlabs/job-tracker">
+                  DevPoint Seekr
                 </a>
-          </Card.Header>
-        </Card.Content>
-      </Card>
-
-      <Card>
-        <Card.Content>
-          <Image
-            style={logo}
-            target="_blank" rel="noopener noreferrer"
-            href="https://github.com/KeaganBarnes/portfolio"
-            src={JS}
-          />
-          <Card.Header>
-            <a
-              target="_blank" rel="noopener noreferrer"
-              href="https://github.com/KeaganBarnes/portfolio">
-              Portfolio
-            </a>
-          </Card.Header>
-        </Card.Content>
-      </Card>
-    </Card.Group>
+              </Card.Header>
+            </Card.Content>
+          </Card>
+          <Card style={card}>
+            <Card.Content>
+              <Image
+                style={logo}
+                target="_blank" rel="noopener noreferrer"
+                href="https://www.keaganbarnes.com/"
+                src={JS}
+              />
+              <hr />
+              <br />
+              <Card.Header>
+                <a
+                  target="_blank" rel="noopener noreferrer"
+                  href="https://github.com/KeaganBarnes/portfolio">
+                  Portfolio (This Website)
+                </a>
+              </Card.Header>
+            </Card.Content>
+          </Card>
+          <Card style={card}>
+            <Card.Content>
+              <Image
+                style={logo}
+                target="_blank"
+                href="https://sad-keller-01e658.netlify.com/"
+                src={JS} />
+              <hr />
+              <br />
+              <Card.Header>
+                <a
+                  target="_blank" rel="noopener noreferrer"
+                  href="https://github.com/KeaganBarnes/React_Flashcards">
+                  React RPS
+                </a>
+              </Card.Header>
+            </Card.Content>
+          </Card>
+        </Card.Group>
+      </Grid.Column>
+    </Grid>
     <br />
-    <h3> Other Note Worthy Projects </h3>
-    <ul>
-      <li>
-        <a
-          target="_blank" rel="noopener noreferrer"
-          href="https://github.com/KeaganBarnes/MySpace_app">
-          Robo MySpace (Rails React)
-        </a>
-      </li>
-      <li>
-        <a
-          target="_blank" rel="noopener noreferrer"
-          href="https://github.com/KeaganBarnes/React_Flashcards">
-          Flashcards (JS React)
-        </a>
-      </li>
-      <li>
-        <a
-          target="_blank" rel="noopener noreferrer"
-          href="https://github.com/KeaganBarnes/JS_RPS">
-          Rock, Paper, Scissors (JS)
-        </a>
-      </li>
-    </ul>
     <br />
     <center>
       <hr />
@@ -87,8 +89,14 @@ const Projects = () => (
 );
 
 const logo = {
+  height: '125px',
+  width: '250px',
+  position: 'center'
+};
+
+const card = {
   height: '200px',
-  width: '300px',
+  width: '250px',
   position: 'center'
 };
 
